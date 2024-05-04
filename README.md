@@ -54,7 +54,9 @@ python setup.py build
 ```
 cria o executavel com todos os arquivos necessários para abri-lo
 
-##Inno Setup
+## Inno Setup
+
 [Inno Setup site](https://jrsoftware.org/isdl.php)
+
 Só utilizar ele colocando os arquivos e o executavel (criados pelo cx_freeze) dentro da mesma pasta e compilar.
 
