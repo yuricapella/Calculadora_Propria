@@ -45,4 +45,16 @@ Foi utilizado o framework cx_Freeze para criação de um executavel independente
 ### Além de fazer o programa, criei o executavel e utilizei a ferramenta inno setup para criar um arquivo de instalação com todos os arquivos necessários (criados pelo cx_Freeze) para utilizar o programa em outros computadores que nao possuem todos esses parâmetros que usei para programar.
 
 
+# Comandos
+No cx_freeze utilizei os seguintes comandos:
+```
+pip install cx_Freeze
+
+python setup.py build
+```
+cria o executavel com todos os arquivos necessários para abri-lo
+
+##Inno Setup
+[Inno Setup site](https://jrsoftware.org/isdl.php)
+Só utilizar ele colocando os arquivos e o executavel (criados pelo cx_freeze) dentro da mesma pasta e compilar.
 
